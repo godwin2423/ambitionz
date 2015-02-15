@@ -1,0 +1,11 @@
+D:\Projects\_VS2010\Ambitionz2\Ambitionz2\bin\Ambitionz2.dll
+D:\Projects\_VS2010\Ambitionz2\Ambitionz2\bin\Ambitionz2.pdb
+D:\Projects\_VS2010\Ambitionz2\Ambitionz2\obj\Debug\Ambitionz2.dll
+D:\Projects\_VS2010\Ambitionz2\Ambitionz2\obj\Debug\Ambitionz2.pdb
+D:\Projects\_VS2010\Ambitionz\Ambitionz2\obj\Debug\Ambitionz2.csprojResolveAssemblyReference.cache
+D:\Projects\_VS2010\Ambitionz\Ambitionz2\bin\Ambitionz2.dll
+D:\Projects\_VS2010\Ambitionz\Ambitionz2\bin\Ambitionz2.pdb
+D:\Projects\_VS2010\Ambitionz\Ambitionz2\bin\ClassLibrary.dll
+D:\Projects\_VS2010\Ambitionz\Ambitionz2\bin\ClassLibrary.pdb
+D:\Projects\_VS2010\Ambitionz\Ambitionz2\obj\Debug\Ambitionz2.dll
+D:\Projects\_VS2010\Ambitionz\Ambitionz2\obj\Debug\Ambitionz2.pdb

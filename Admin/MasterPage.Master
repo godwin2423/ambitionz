@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Ambitionz2.Admin.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><!-- for menu compactability-->
+  
+    <title>Binhindi</title>
+    <script type='text/javascript' src="../js/jquery.js"></script>
+    <script type='text/javascript' src="../js/slider.js"></script>
+    <script type="text/javascript" src="../js/menu_dropdown.js"></script>
+
+    <link href="../style/reset.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../style/main.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../style/slider.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../style/menu_dropdown.css" rel="stylesheet" type="text/css"></link>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel=stylesheet type=text/css>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel=stylesheet type=text/css>
+
+    <script language="javascript" type="text/javascript">
+        $(function () {
+            $("#menu_dropdown1").menu_dropdown({
+                m_w: '110',
+                m_t_c: '#FFF',
+                m_c_c: '#002c48',
+                m_bg_c: '#004877',
+                m_b_s: '2',
+                m_bg_h_c: '#002c48',
+                s_s: 'fast',
+                m_s: 'medium'
+            });
+        });
+        </script>
+    <link href="../Style/grid.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        #abt {min-height: 400px;}
+        #navContainer{border-bottom:1px solid #FFF;}
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="social_icon"><a href="https://www.facebook.com/" target="_blank">css gallery</a></div>
+    <div id="HeaderContainer">
+        <div class="centerContainer">
+    	    <div id="header_right_img" class="fr"><p>Discover redefined technology</p></div>
+    	    <div class="cl"></div>
+        </div>
+    </div>
+
+    <div id="navContainer">
+        <div class="centerContainer">
+            <div id="menu_dropdown1" class="menu_dropdown">
+                <ul>
+                    <li><a href="../Default.aspx" target="_blank">Web Home</a> </li>
+                    <li><a href="Home.aspx">Admin Home</a></li>
+                    <%--<li><a href="#">Services</a>
+ 					    <ul>
+                            <li><a href="edu_tech.html">Education</a></li>
+						    <li><a href="eng_lang.html">Language</a></li>
+                            <li><a href="classroom.html">Classroom</a></li>
+                            <li><a href="lab.html">Laboratory</a></li>
+ 						    <li><a href="ict.html">ICT Solutions</a></li>
+                            <li><a href="training.html">Training</a></li>
+                            <li><a href="video.html">Conferance</a></li>
+                            <li><a href="signage.html">Signage</a></li>
+                            <li><a href="software.html">ERP Solution</a></li>
+                  	    </ul>
+                    </li>--%>
+				    <li><a href="MenuList.aspx">Menus</a></li>
+                    <li><a href="NewsList.aspx">News</a></li>
+                    <li><a href="DownloadList.aspx">Downloads</a></li>
+                    <li>
+                        <asp:LinkButton ID="lbLogout" runat="server" onclick="lbLogout_Click1">Logout</asp:LinkButton></li>
+                </ul>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="abtContainer" class="fl">
+        <div class="centerContainer">
+            <div id="abt">
+                <asp:ContentPlaceHolder id="Content" runat="server">
+                </asp:ContentPlaceHolder>  
+            </div>
+        </div>
+    </div>
+
+    <div id="Links" class="cb">
+      <div class="centerContainer">
+          <%--<ol>
+  	        <li><a href="index.html">Home
+            </a></li>
+            <li><a href="abt.html">About
+            </a></li>
+            <li><a href="edu_tech.html">Services & Solution
+            </a></li>
+            <li><a href="clients.html">Clients
+            </a></li>
+            <li><a href="partner.html">Partner
+            </a></li>
+            <li><a href="download.html">Downloads
+            </a></li>
+            <li><a href="contact.html">Contact
+            </a></li>
+          </ol>--%>
+      </div>
+    </div>
+
+    <div id="footer">
+        <div id="copy">Copyright &#169; BINHINDI</div>
+        <div id="web"><a href="http://www.softwebdesigners.com" class="link_two">powered by softweb</a></div>
+    </div>
+    </form>  
+</body>
+</html>
