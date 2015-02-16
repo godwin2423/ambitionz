@@ -54,6 +54,14 @@
     <Content Include="Admin\News.aspx" />
     <Content Include="Admin\NewsList.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="images\adv1.jpg" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\details.png" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\image00.jpg" />
+    <Content Include="images\image01.jpg" />
+    <Content Include="images\image02.jpg" />
+    <Content Include="index.html" />
     <Content Include="js\custom.min.js" />
     <Content Include="js\glo2boz.js" />
     <Content Include="js\html5.js" />
@@ -73,27 +81,31 @@
     <Content Include="Login.aspx" />
     <Content Include="News.aspx" />
     <Content Include="NewsDetails.aspx" />
-    <Content Include="style\fonts\BebasNeue.svg" />
-    <Content Include="style\fonts\GiddyupStd.svg" />
-    <Content Include="style\fonts\HoboStd.svg" />
-    <Content Include="style\fonts\Jellyka_Estrya_Handwriting.svg" />
-    <Content Include="style\fonts\Vegur-R_0500.svg" />
-    <Content Include="style\fonts\_notes\dwsync.xml" />
     <Content Include="style\grid.css" />
-    <Content Include="style\main.css" />
-    <Content Include="style\menu_dropdown.css" />
-    <Content Include="style\portfolio.css" />
-    <Content Include="style\portfolio2.css" />
-    <Content Include="style\prettyPhoto.css" />
-    <Content Include="style\reset.css" />
-    <Content Include="style\slider.css" />
-    <Content Include="style\sooperfish-theme-red.css" />
-    <Content Include="style\sooperfish.css" />
     <Content Include="style\style.css" />
-    <Content Include="style\_notes\dwsync.xml" />
-    <Content Include="test.aspx" />
     <Content Include="userfiles\Subjects\1.html" />
-    <Content Include="Web.config" />
+    <Content Include="userfiles\Subjects\2.html" />
+    <Content Include="userfiles\Subjects\3.html" />
+    <Content Include="userfiles\Subjects\4.html" />
+    <Content Include="userfiles\Subjects\5.html" />
+    <Content Include="userfiles\Subjects\6.html" />
+    <Content Include="userfiles\Subjects\7.html" />
+    <Content Include="userfiles\Subjects\8.html" />
+    <Content Include="userfiles\Subjects\9.html" />
+    <Content Include="userfiles\Subjects\10.html" />
+    <Content Include="userfiles\Subjects\11.html" />
+    <Content Include="userfiles\Subjects\12.html" />
+    <Content Include="userfiles\Subjects\13.html" />
+    <Content Include="userfiles\Subjects\14.html" />
+    <Content Include="userfiles\Subjects\15.html" />
+    <Content Include="userfiles\Subjects\16.html" />
+    <Content Include="userfiles\Subjects\17.html" />
+    <Content Include="userfiles\Subjects\18.html" />
+    <Content Include="userfiles\Subjects\19.html" />
+    <Content Include="userfiles\Subjects\20.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -159,35 +171,13 @@
       <DependentUpon>NewsDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\MasterPage.Master" />
     <Content Include="MasterPage.Master" />
-    <None Include="style\fonts\BebasNeue.eot" />
-    <None Include="style\fonts\BebasNeue.ttf" />
-    <None Include="style\fonts\FineHand.TTF" />
-    <None Include="style\fonts\GiddyupStd.eot" />
-    <None Include="style\fonts\GiddyupStd.ttf" />
-    <None Include="style\fonts\HoboStd.eot" />
-    <None Include="style\fonts\HoboStd.ttf" />
-    <None Include="style\fonts\Jellyka_Estrya_Handwriting.eot" />
-    <None Include="style\fonts\Jellyka_Estrya_Handwriting.ttf" />
-    <None Include="style\fonts\Jellyka_Estrya_Handwriting.woff" />
-    <None Include="style\fonts\SQR721E.TTF" />
-    <None Include="style\fonts\Vegur-R_0500.eot" />
-    <None Include="style\fonts\Vegur-R_0500.ttf" />
     <None Include="userfiles\Thumbs.db" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
       <Project>{C5FFB39C-D008-4C72-ADE6-B3E41CF6CE54}</Project>

@@ -13,6 +13,15 @@ namespace Ambitionz2.Admin {
     public partial class NewsList {
         
         /// <summary>
+        /// ddlSubject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlSubject;
+        
+        /// <summary>
         /// lblNoRecords control.
         /// </summary>
         /// <remarks>

@@ -22,10 +22,22 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" Runat="Server">
-<h3><span><span>News</span></span></h3>
+<h1><span><span>News</span></span></h1>
     <div class="indent">
+
+    <asp:DropDownList ID="ddlSubject" runat="server" AutoPostBack="true"
+            onselectedindexchanged="ddlSubject_SelectedIndexChanged">
+        <asp:ListItem Value="0">Select</asp:ListItem>
+        <asp:ListItem Value="1">English</asp:ListItem>
+        <asp:ListItem Value="2">GK</asp:ListItem>
+        <asp:ListItem Value="3">IT</asp:ListItem>
+        <asp:ListItem Value="4">Science</asp:ListItem>
+        <asp:ListItem Value="5">Current Affais</asp:ListItem>
+        <asp:ListItem Value="6">Constitution</asp:ListItem>
+    </asp:DropDownList>
+
     <center><asp:Label ID="lblNoRecords" runat="server" CssClass="noRecords"></asp:Label></center>
- <asp:GridView ID="dtgNews" runat="server" 
+ <asp:GridView ID="dtgNews" runat="server" GridLines="None"
         AllowPaging="True" AutoGenerateColumns="False" CssClass="GridViewStyle2" 
         OnPageIndexChanging="dtgNews_PageIndexChanging" 
         onrowcommand="dtgNews_RowCommand" PageSize="25">

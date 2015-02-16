@@ -48,7 +48,7 @@ namespace Ambitionz2.Admin
 
         private void BindNews()
         {
-            dtgNews.DataSource = NewsDal.LoadNews(0);
+            dtgNews.DataSource = NewsDal.LoadNewsBySubject(Convert.ToInt32(ddlSubject.SelectedValue));
             dtgNews.DataBind();
 
             lblNoRecords.Text = dtgNews.Rows.Count <= 0 ? "No News." : string.Empty;
@@ -57,6 +57,11 @@ namespace Ambitionz2.Admin
         protected void btnAddNew_Click(object sender, EventArgs e)
         {
             Response.Redirect("News.aspx");
+        }
+
+        protected void ddlSubject_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            BindNews();
         }
     }
 

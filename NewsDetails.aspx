@@ -4,10 +4,12 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" Runat="Server">
    <%-- <h3>News</h3>--%>
+
      <table style="width:100%">
             <tr>
                 <td align="center" style="text-align:center" >
-        <asp:Label ID="lblTitle" runat="server" CssClass="title1" Font-Bold="True"></asp:Label>
+                <h1>
+        <asp:Label ID="lblTitle" runat="server" CssClass="title1" Font-Bold="True"></asp:Label></h1>
         </td>
             </tr>
             <tr>

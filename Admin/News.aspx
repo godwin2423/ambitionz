@@ -13,9 +13,9 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" Runat="Server">
-<h3><span><span>News</span></span></h3>
+<h1><span><span>News</span></span></h1>
     <div class="indent">
-    <table width="770px" style="margin-left:30px;">
+    <table width="770px">
         <tr>
             <td class="style1">Subject</td>
             <td class="style2">
