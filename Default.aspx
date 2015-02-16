@@ -6,39 +6,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="Server">
     <div id="catagory1">
-        <img class="fl" src="images/icon_01.png" width="62" height="62">
         <h3>
-            About Binhindi</h3>
+            Introduction</h3>
         <p>
-            Bin Hindi for Technology (BHT) was founded in 2007, as a division of Bin Hindi Group
-            of companies(Bin Hindi for Technology, Bin Hindi Constructions, Bin Hindi Trading),
-            BHT was <a class="fr" href="abt.html">Read more..</a></p>
+            WPF lacks built-in 3D shapes such as sphere, cylinder and cube. In result, those who intend to add such shapes to their 3D scene have no choice rather than generating their mesh through additional coding. As I've already googled and searched through CodeProject for a simple solution for generating a sphere in WPF, I didn't find a clear code that I could rely on for a serious project. Some of them too long others with limitations and ambiguity.  The code that I submit here generates a triangle list and their normal vectors for a sphere with unit radius which can be then moved and resized by simple calculations. It’s written in VB.Net and can be easily converted to other .Net based languages. </p>
     </div>
-    <div id="catagory2">
-        <img class="fl" src="images/icon_02.png" width="62" height="62">
+
+    <div id="Div1">
         <h3>
-            Vision &amp; Mission</h3>
+            Using the code</h3>
         <p>
-            We! As a promising company keep ourselves in par with the technology innovators
-            to provide our clients and customers with the latest technology in order for them
-            to be in<a class="fr" href="vision.html">Read more..</a></p>
+            WPF lacks built-in 3D shapes such as sphere, cylinder and cube. In result, those who intend to add such shapes to their 3D scene have no choice rather than generating their mesh through additional coding. As I've already googled and searched through CodeProject for a simple solution for generating a sphere in WPF, I didn't find a clear code that I could rely on for a serious project. Some of them too long others with limitations and ambiguity.  The code that I submit here generates a triangle list and their normal vectors for a sphere with unit radius which can be then moved and resized by simple calculations. It’s written in VB.Net and can be easily converted to other .Net based languages. </p>
     </div>
-    <div id="catagory3" class="removeMarginRight">
-        <img class="fl" src="images/icon_03.png" width="62" height="62">
+
+    <div id="Div2">
         <h3>
-            News & Events</h3>
-        <%--<p>
-            Gitex Saudi Arabia 2013 16-19 Nov 2013
-            <br>
-            <br>
-            GESS 2014 4-6 March 2014 <a class="fr" href="news.html">Read more..</a></p>--%>
-         <%--<marquee runat="server" loop="true"  direction="up" OnMouseOver='this.stop();' OnMouseOut='this.start();' scrollamount="3" width="100%" style="text-align: justify;" id="MARQUEE1" >--%>
-            <asp:Repeater ID="rptNews" runat="server">
-                <ItemTemplate>
-                    <p><a href='<%# "NewsDetails.aspx?newsid=" + Eval("NewsID") %>' ><%# Eval("Title")%></a></p>
-                </ItemTemplate>
-            </asp:Repeater> 
-            <p><a class="fr" href="News.aspx">Read more..</a></p> 
-        <%--</marquee>--%>
+           Community</h3>
+        <p>
+            WPF lacks built-in 3D shapes such as sphere, cylinder and cube. In result, those who intend to add such shapes to their 3D scene have no choice rather than generating their mesh through additional coding. As I've already googled and searched through CodeProject for a simple solution for generating a sphere in WPF, I didn't find a clear code that I could rely on for a serious project. Some of them too long others with limitations and ambiguity.  The code that I submit here generates a triangle list and their normal vectors for a sphere with unit radius which can be then moved and resized by simple calculations. It’s written in VB.Net and can be easily converted to other .Net based languages. </p>
     </div>
 </asp:Content>
