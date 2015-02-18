@@ -26,6 +26,8 @@
             <li><a href="News.aspx?newsid=4" target="_self">Science</a></li>
             <li><a href="News.aspx?newsid=5" target="_self">Current</a></li>
             <li><a href="News.aspx?newsid=6" target="_self">Constitution</a></li>
+            <li><a href="News.aspx?newsid=7" target="_self">Economic</a></li>
+            <li><a href="News.aspx?newsid=8" target="_self">Geography</a></li>
 
         </ul>
         <div id="sidebar-a">

@@ -27,6 +27,8 @@
                     <asp:ListItem Value="4">Science</asp:ListItem>
                     <asp:ListItem Value="5">Current Affais</asp:ListItem>
                     <asp:ListItem Value="6">Constitution</asp:ListItem>
+                    <asp:ListItem Value="7">Economic</asp:ListItem>
+                    <asp:ListItem Value="8">Geography</asp:ListItem>
                 </asp:DropDownList>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
                     ControlToValidate="ddlSubject" InitialValue="0" ErrorMessage="*" ValidationGroup="vg1"></asp:RequiredFieldValidator>

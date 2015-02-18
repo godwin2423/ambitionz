@@ -34,6 +34,8 @@
         <asp:ListItem Value="4">Science</asp:ListItem>
         <asp:ListItem Value="5">Current Affais</asp:ListItem>
         <asp:ListItem Value="6">Constitution</asp:ListItem>
+        <asp:ListItem Value="7">Economic</asp:ListItem>
+        <asp:ListItem Value="8">Geography</asp:ListItem>
     </asp:DropDownList>
 
     <center><asp:Label ID="lblNoRecords" runat="server" CssClass="noRecords"></asp:Label></center>
