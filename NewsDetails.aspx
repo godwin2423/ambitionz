@@ -3,9 +3,10 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
+        td{border: 1px solid #E7E7E7;}
         td p
         {
-            margin: 5px;
+            margin: 5px !important;
         }
     </style>
 </asp:Content>
