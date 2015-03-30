@@ -11,7 +11,7 @@ namespace Ambitionz2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            LoginDal.AuthenticateAdmin();
         }
     }
 }

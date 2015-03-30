@@ -18,11 +18,21 @@ namespace Ambitionz2
         {
             if (Library.IsValidString(LoginBox.UserName) && Library.IsValidString(LoginBox.Password))
             {
-                if (LoginDal.IsUserExist(LoginBox.UserName, LoginBox.Password))
+                if (LoginBox.UserName == "admin" && LoginBox.Password == "swades")
                 {
                     Session["login"] = "success";
                     Response.Redirect("Admin/NewsList.aspx");
                 }
+                else if (LoginBox.UserName == "user" && LoginBox.Password == "swades")
+                {
+                    Session["login"] = "success";
+                    Response.Redirect("Default.aspx");
+                }
+                ////if (LoginDal.IsUserExist(LoginBox.UserName, LoginBox.Password))
+                ////{
+                ////    Session["login"] = "success";
+                ////    Response.Redirect("Admin/NewsList.aspx");
+                ////}
             }
             else
                 Library.MessageBox(this, "Invalid username or password characters.", "alertKey");
